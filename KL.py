@@ -9,6 +9,7 @@ path = "./bonus"
 d_ = ["KL"]
 
 for d in d_:
+    os.makedirs(f"./{d}", exist_ok=True)
     files_len = len(os.listdir(f"{path}/{d}"))
     x = [cv2.imread(f"{path}/{d}/{idx:04d}.jpg").astype(np.uint8) for idx in range(files_len)]
 
@@ -24,3 +25,5 @@ for i in tqdm(range(len(x))):
     w = np.hstack([x[i], mask]).astype(np.uint8)
     cv2.imwrite(f'./{d}/{d}_{i + 1:02d}.png', w)
     out.write(w)
+
+out.release()
