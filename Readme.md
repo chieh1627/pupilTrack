@@ -1,11 +1,19 @@
 pupilTrack(src: np.ndarray, gamma: float, minArea: int, maxArea: int) -> np.ndarray:
+
     """
+    
         This program is used to detect the pupil part and output the detection result.
+        
         :param src: np.ndarray -> input image.
+        
         :param gamma: float -> value of Gamma Correction.
+        
         :param minArea: int -> Prediction of the minimum area of the pupil.
+        
         :param maxArea: int -> Prediction of the maximum area of the pupil.
+        
         :return: output: np.ndarray - > output image with mask.
+        
     """
 
 S5.py
