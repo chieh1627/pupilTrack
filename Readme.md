@@ -1,3 +1,4 @@
+# pupil.py
 pupilTrack(src: np.ndarray, gamma: float, minArea: int, maxArea: int) -> np.ndarray:
 
     """
@@ -16,12 +17,12 @@ pupilTrack(src: np.ndarray, gamma: float, minArea: int, maxArea: int) -> np.ndar
         
     """
 
-S5.py
+# S5.py
   Please change the path to where the dataset is stored.
   
     
-KL.py
+# KL.py
   Please change the path to the parent directory where the KL folder is stored.
   
 
-The above two programs not only generate the predicted mask, but also generate the corresponding video for people to quickly check if they have successfully traced the pupil.
+### The above two programs not only generate the predicted mask, but also generate the corresponding video for people to quickly check if they have successfully traced the pupil.
