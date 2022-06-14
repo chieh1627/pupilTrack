@@ -24,5 +24,5 @@ pupilTrack(src: np.ndarray, gamma: float, minArea: int, maxArea: int) -> np.ndar
 # KL.py
   Please change the path to the parent directory where the KL folder is stored.
   
-
+# Note
 ### The above two programs not only generate the predicted mask, but also generate the corresponding video for people to quickly check if they have successfully traced the pupil.
